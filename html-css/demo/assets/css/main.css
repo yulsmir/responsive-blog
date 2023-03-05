@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;900&display=swap');
+
+*, *:before, *:after {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+:not(svg, img, picture):empty {
+	display: none;
+}
+
+:root {
+	--default-text: 'Roboto', sans-serif;
+	--h1: 2rem;
+	--h2: 1.5rem;
+	--h3: 1rem;
+	--p: 1rem;
+}
+
+html, body {
+	height: 100%;
+	width: 100%;
+}
+
+html {
+	scroll-behavior: smooth;
+}
+
+body {
+	font-family: var(--default-text);
+}
+
+picture,
+img {
+	width: 100%;
+	height: auto;
+}
+
+.container {
+	min-height: 100vh;
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	padding: 1rem;
+}
+
+a {
+	text-decoration: none;
+	color: white;
+}
+
+.btn {
+	background-color: transparent;
+	padding: 0.5rem 1rem;
+	border: 0.0625rem solid #e3e3e3;
+}
+
+.btn.btn-square {
+	background-color: red;
+	border: 0.0625rem solid #e3e3e3;
+}
+
+
+.btn.btn.btn-round {
+	background-color: blue;
+	transition: 250ms;
+	border-radius: 0.625rem;
+}
+
+.btn.btn-round:hover {
+	border-radius: 0;
+}
+
+
+.box {
+	opacity: 0;
+	transition: 250ms;
+}
+
+.box.lazy-load {
+	opacity: 1;
+}
+
+
+.box-1 {
+	grid-area: box1;
+}
+
+.box-2 {
+	grid-area: box2;
+}
+
+.box-3 {
+	grid-area: box3;
+}
+
+.box-4 {
+	grid-area: box4;
+}
+
+.box-5 {
+	grid-area: box5;
+}
+
+.mosaic {
+	display: grid;
+	grid-template-areas:
+		"box1"
+		"box2"
+		"box3"
+		"box4"
+		"box5";
+}
+
+
+header {}
+
+nav {}
+
+footer {}
+
+
+@media(min-width: 640px) {}
+
+
+@media(min-width: 1024px) {}
