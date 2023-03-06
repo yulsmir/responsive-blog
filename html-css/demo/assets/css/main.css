@@ -118,6 +118,13 @@ section.mosaic {
 	height: 2rem;
 }
 
+
+header {
+	position: fixed;
+	overflow: hidden;
+	width: 100vw;
+}
+
 header, 
 footer {
 	background-color: var(--color-black);
