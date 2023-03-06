@@ -175,10 +175,6 @@ footer {
 
 
 @media(min-width: 640px) {
-	.logo > picture > img {
-		height: 4rem;
-	}
-
 	.container, 
 	section.mosaic {
 		grid-template-columns: repeat(2, 50%);
