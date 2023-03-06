@@ -113,7 +113,6 @@ section.mosaic {
 	background-position: center;
 	background-size: cover;
 	color: var(--parallax-color);
-	border-top: 0.8rem var(--color-white) dotted;
 }
 
 .logo > picture > img {
