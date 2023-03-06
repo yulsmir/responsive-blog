@@ -91,7 +91,7 @@ section.mosaic {
 	display: grid;
 	grid-template-columns: 1fr;
 	grid-template-rows: auto;
-	row-gap: 2rem;
+	gap: 2rem;
 }
 
 .box {
@@ -129,7 +129,7 @@ header,
 footer {
 	background-color: var(--color-black);
 	color: var(--color-white);
-	padding: 0.8rem 0;
+	padding: 0.2rem 6%;
 }
 
 nav {
@@ -139,7 +139,6 @@ nav {
 	align-items: center;
 	justify-content: center;
 	justify-content: space-between;
-	padding: 0 2%;
 }
 
 h1, h3 {
@@ -191,11 +190,17 @@ footer {
 	.container, 
 	section.mosaic {
 		grid-template-columns: repeat(2, 50%);
-		column-gap: 2rem;
+		gap: 2rem;
+
 	}
 
 	h1 {
 		font-size: 3rem;
+	}
+
+	header,
+	footer {
+		padding: 0.2rem 4%;
 	}
 }
 
@@ -204,5 +209,11 @@ footer {
 	.container,
 	section.mosaic {
 		grid-template-columns: repeat(3, 30%);
+		gap: 4rem;
+	}
+
+	header,
+	footer {
+		padding: 0.2rem 2%;
 	}
 }
