@@ -1,3 +1,5 @@
 # foocoding-extras
+
 ### Responsive blog with parallax
-Live: https://yulsmir.github.io/responsive-blog/html-css/demo
+
+Live: https://yulsmir.github.io/responsive-blog/
